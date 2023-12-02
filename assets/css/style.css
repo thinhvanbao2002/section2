@@ -9,9 +9,14 @@
 .wrapper {
     width: 100vw;
     background: #FFF9F5;
-    padding: 66px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.container {
+    margin: 66px 0;
+}
 .section-header h4 {
     font-weight: 400;
     text-align: center;
@@ -26,7 +31,6 @@
 
 .section-body {
     display: flex;
-    margin-left: 242px;
     flex-wrap: wrap;
 }
 
